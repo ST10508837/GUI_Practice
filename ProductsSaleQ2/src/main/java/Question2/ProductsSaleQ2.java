@@ -9,8 +9,8 @@ public class ProductsSaleQ2 implements IProductSales{
     private final int salesLimit;
 
     // Data and limit are passed in so the class is easy to unit test
-    public ProductSalesQ2(int[][] productSales, int salesLimit) {
-        this.productSales = productSales;
+    public ProductSales(int[][] productSales, int salesLimit) {
+        this.productSales = productSale;
         this.salesLimit = salesLimit;
     }
 
